@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="MyClass">
+		<DisplayString>"Text {{ size={myNum}, string = {myString->_M_dataplus->_M_p}  }}</DisplayString>
+		<Expand>
+            <Item Name="[size]" ExcludeView="simple">_Mylast - _Myfirst</Item>
+		</Expand>
+	</Type>
+</AutoVisualizer>
